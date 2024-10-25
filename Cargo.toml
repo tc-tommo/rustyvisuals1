@@ -1,0 +1,10 @@
+[package]
+name = "audio_visualization"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cpal = "0.15"        # Cross-platform audio I/O
+rustfft = "6.0"      # FFT calculations
+palette = "0.6"      # Color manipulation
+macroquad = "0.4.13" # Game framework
